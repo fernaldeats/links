@@ -1,8 +1,30 @@
 .banner-image {
   width: 128px;
   height: 128px;
-  border-radius: 0.5;
+  border-radius: 128px;
+  border: solid white 3px;
 }
 body {
   padding: 40px 20px;
+  background-color: #fffffe;
+}
+
+.link img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+.link a {
+  background-color: #3da9fc;
+  color: #fffffe;
+  text-decoration: none
+}
+.name {
+  color: #094067;
+  font-family:sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+
+.items {
+  display: flex;
 }
