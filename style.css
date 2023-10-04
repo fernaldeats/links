@@ -1,1 +1,8 @@
-
+.banner-image {
+  width: 128px;
+  height: 128px;
+  border-radius: 0.5;
+}
+body {
+  padding: 40px 20px;
+}
