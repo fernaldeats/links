@@ -11,8 +11,8 @@
 }
 
 body {
-  padding: 40px 0px 0px 40px;
   background-color: #fffffe;
+  padding-top: 40px
 }
 
 .social-icons {
@@ -26,11 +26,13 @@ body {
   gap: 30px;
   max-width: 640px;
   flex-grow: 1;
+  margin: auto;
 }
 
 .link img {
   width: 48px;
   height: 48px;
+  border-radius: 48px;
   object-fit: cover;
 }
 .link a {
